@@ -1,10 +1,15 @@
+[allow-attach]
 [attach]
 <a href="/engine/download.php?id={attach_id}" class="files">{attach_name}</a>
-Размер: <b>{attach_size}</b>
-Скачали: <b>{attach_download}</b><br />
+Р Р°Р·РјРµСЂ: <b>{attach_size}</b>
+РЎРєР°С‡Р°Р»Рё: <b>{attach_download}</b><br />
 MD5: <b>{attach_md5}</b>
-Дата: <b>{attach_date}</b>
+Р”Р°С‚Р°: <b>{attach_date}</b>
 [/attach]
 [not-attach]
-нет вложения
+РЅРµС‚ РІР»РѕР¶РµРЅРёСЏ
 [/not-attach]
+[/allow-attach]
+[not-allow-attach]
+РґРѕСЃС‚СѓРї Рє Р°С‚С‚Р°С‡Сѓ Р·Р°РєСЂС‹С‚
+[/not-allow-attach]
